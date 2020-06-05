@@ -1,6 +1,6 @@
 @extends('layouts/contentLayoutMaster')
 
-@section('title', 'Card Actions')
+@section('title', 'Ações do cartão')
 
 @section('content')
 <!-- card actions section start -->
@@ -10,7 +10,7 @@
       <div class="col-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">Card Actions </h4>
+            <h4 class="card-title">Ações do cartão </h4>
             <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
             <div class="heading-elements">
               <ul class="list-inline mb-0">
@@ -29,39 +29,39 @@
                     <table class="table table-bordered">
                       <thead>
                         <tr>
-                          <th>Action</th>
+                          <th>Ação</th>
                           <th>Icon</th>
-                          <th>Details</th>
+                          <th>Detalhes</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Collapse</td>
+                          <td>Recolher</td>
                           <td class="text-center">
                             <i class="feather icon-chevron-down"></i>
                           </td>
-                          <td> Collapse card content using collapse action.</td>
+                          <td> Recolher o conteúdo do cartão usando a ação de recolhimento.</td>
                         </tr>
                         <tr>
-                          <td>Expand Card</td>
+                          <td>Expandir Cartão</td>
                           <td class="text-center">
                             <i class="feather icon-maximize"></i>
                           </td>
-                          <td>Maximize your card using expand action</td>
+                          <td>Maximize seu cartão usando a ação de expansão</td>
                         </tr>
                         <tr>
-                          <td>Refresh Content</td>
+                          <td>Atualizar Conteúdo</td>
                           <td class="text-center">
                             <i class="feather icon-rotate-cw"></i>
                           </td>
-                          <td>Refresh your card content using refresh action.</td>
+                          <td>Atualize o conteúdo do seu cartão usando a ação de atualização.</td>
                         </tr>
                         <tr>
-                          <td>Remove Card</td>
+                          <td>Remover Cartão</td>
                           <td class="text-center">
                             <i class="feather icon-x"></i>
                           </td>
-                          <td> Remove card from page using remove card action</td>
+                          <td> Remover cartão da página usando a ação remover cartão</td>
                         </tr>
                       </tbody>
                     </table>
@@ -80,7 +80,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">Collapsible </h4>
+            <h4 class="card-title">Dobrável </h4>
             <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
             <div class="heading-elements">
               <ul class="list-inline mb-0">
@@ -91,11 +91,11 @@
           <div class="card-content collapse show">
             <div class="card-body">
               <p>
-                You can create a collapsible content by by adding <code>[data-action="collapse"]</code> and wrapping it up
-                with <code>.heading-elements</code> in <code>.card-header</code>
+                Você pode criar um conteúdo recolhível adicionando <code>[data-action="collapse"]</code> e agrupando-o
+                <code>.heading-elements</code> em  <code>.card-header</code>
               </p>
               <p>
-                Click on <i class="feather icon-chevron-down align-middle"></i> to see card collapse in action
+                Clique em <i class="feather icon-chevron-down align-middle"></i> para ver o colapso do cartão em ação
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">Refresh Content</h4>
+            <h4 class="card-title">Atualizar Conteúdo</h4>
             <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
             <div class="heading-elements">
               <ul class="list-inline mb-0">
@@ -115,11 +115,11 @@
           <div class="card-content">
             <div class="card-body">
               <p>
-                To create a card with refresh action use <code>[data-action="reload"]</code> inside of
+                Para criar um cartão com ação de atualização, use <code>[data-action="reload"]</code> dentro de
                 <code>.heading-element</code>
               </p>
               <p>
-                Click on <i class="feather icon-rotate-cw align-middle"></i> icon to see refresh card content in action.
+                Clique em <i class="feather icon-rotate-cw align-middle"></i> para ver a atualização do conteúdo do cartão em ação.
               </p>
             </div>
           </div>
@@ -133,7 +133,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">Remove Card</h4>
+            <h4 class="card-title">Remover Cartão</h4>
             <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
             <div class="heading-elements">
               <ul class="list-inline mb-0">
@@ -144,11 +144,11 @@
           <div class="card-content collapse show">
             <div class="card-body">
               <p>
-                You can create a closeable card by using <code>[data-action="close"]</code> inside
+                Você pode crair um cartão closeable usando <code>[data-action="close"]</code> interior
                 <code>.heading-element</code>
               </p>
               <p>
-                Click on <i class="feather icon-x align-middle"></i> icon to see closeable card in action.
+                Clique em <i class="feather icon-x align-middle"></i> para ver o colapso do cartão em ação.
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">Expand Card</h4>
+            <h4 class="card-title">Expandir Cartão</h4>
             <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
             <div class="heading-elements">
               <ul class="list-inline mb-0">
@@ -168,10 +168,10 @@
           <div class="card-content collapse show">
             <div class="card-body">
               <p>
-                Use <code>[data-action="expand"]</code> insdie of <code>.heading-elements</code> to maximize your card.
+                Use <code>[data-action="expand"]</code> insdie de <code>.heading-elements</code> para maximizar seu cartão.
               </p>
               <p>
-                Click on <i class="feather icon-maximize align-middle"></i> icon to see close card in action.
+                Clique em <i class="feather icon-maximize align-middle"></i> para ver o cartão próximo em ação.
               </p>
             </div>
           </div>
